@@ -1,0 +1,8 @@
+services:
+    api:
+        build:
+          context: .
+          dockerfile: dockerfile
+        ports:
+          - 80:80
+        restart: always #Docker restart olsa da bu container kapansa bile container tekrar çalışır. oto olarak çalışmaya devam eder.

@@ -1,5 +1,5 @@
 # Base alınacak Image'ların url'ini veriyoruz. 
-FROM mcr.microsoft.com/dotnet/dsk:7.0 AS build-env
+FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build-env
 
 # App diye klasör, ben bu App'in içinde çalışacağım.
 WORKDIR /app

@@ -1,0 +1,1 @@
+docker compose up --force-recreate --build -d  # Yazılan bir compose'u ayağa kaldırır. Dizinde olan compose'u bularak ayağa kaldırır.
